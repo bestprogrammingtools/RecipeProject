@@ -1,6 +1,11 @@
 import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
-  textStyle: {color: 'red'},
-  textStyleBackground: {backgroundColor: 'black'},
+  header: {backgroundColor: 'red'},
+  main: {
+    backgroundColor: 'yellow',
+  },
+  footer: {
+    backgroundColor: 'green',
+  },
 });
 export default styles;
