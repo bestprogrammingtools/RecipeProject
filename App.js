@@ -1,18 +1,20 @@
 import React from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
+import {View, Text, SafeAreaView} from 'react-native';
 import styles from './styles';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <View style={styles.header}>
-        <Text>Welcome to our application</Text>
-      </View>
+    <SafeAreaView style={styles.container}>
       <View style={styles.main}>
-        <Text>Ak ikneba teksti romelic agwers chveni aplikaciis punkcias</Text>
-      </View>
-      <View style={styles.footer}>
-        <Text>All rights reserved RecipeProject Team</Text>
+        <View style={styles.header}>
+          <Text>Welcome to our application</Text>
+        </View>
+        <View style={styles.bodyContainer}>
+          <Text>Es aris chveni aplikaciis agwera</Text>
+        </View>
+        <View style={styles.footer}>
+          <Text>All rights reserved Recipe Project Team</Text>
+        </View>
       </View>
     </SafeAreaView>
   );
